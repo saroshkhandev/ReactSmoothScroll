@@ -21,18 +21,18 @@ const Sidebar = (props) => {
           <SidebarLink to="about" onClick={props.toggle}>
             About
           </SidebarLink>
-          <SidebarLink to="portfolio" onClick={props.toggle}>
-            Portfolio
-          </SidebarLink>
           <SidebarLink to="services" onClick={props.toggle}>
             Services
           </SidebarLink>
-          <SidebarLink to="signup" onClick={props.toggle}>
-            Newsletter
+          <SidebarLink to="portfolio" onClick={props.toggle}>
+            Portfolio
           </SidebarLink>
+          {/* <SidebarLink to="signup" onClick={props.toggle}>
+            Newsletter
+          </SidebarLink> */}
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to="/signin">Sign In</SidebarRoute>
+          <SidebarRoute to="/contact">Contact Us</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

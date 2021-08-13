@@ -32,12 +32,12 @@ const Navbar = (props) => {
             <NavItem>
               <NavLinks to="portfolio">Portfolio</NavLinks>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLinks to="signup">Newsletter</NavLinks>
-            </NavItem>
+            </NavItem> */}
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/signin">Sign In</NavBtnLink>
+            <NavBtnLink to="/contact">Contact Us</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

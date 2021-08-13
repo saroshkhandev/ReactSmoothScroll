@@ -80,3 +80,7 @@ export const ServicesP = styled.p`
   font-size: 1rem;
   text-align: center;
 `;
+
+export const A = styled.a`
+  text-decoration: none;
+`;
