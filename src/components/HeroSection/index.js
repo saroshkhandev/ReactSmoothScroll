@@ -11,7 +11,7 @@ import {
   ArrowRight,
 } from "./HeroElements";
 import { Button } from "../UI/ButtonElement";
-import Video from "../../videos/video.mp4";
+import Video from "../../videos/video1.mp4";
 
 const HeroSection = () => {
   const [hover, setHover] = useState(false);
@@ -21,7 +21,7 @@ const HeroSection = () => {
   };
 
   return (
-    <HeroContainer>
+    <HeroContainer id="about">
       <HeroBg>
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
