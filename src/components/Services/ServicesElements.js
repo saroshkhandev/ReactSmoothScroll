@@ -83,4 +83,5 @@ export const ServicesP = styled.p`
 
 export const A = styled.a`
   text-decoration: none;
+  color: #000;
 `;
