@@ -5,7 +5,7 @@ import Contact from "./pages/contact";
 
 function App() {
   return (
-    <Router basename="/saroshkhandev">
+    <Router basename={window.location.pathname || ""}>
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/contact" exact component={Contact} />
