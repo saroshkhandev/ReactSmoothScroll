@@ -5,7 +5,7 @@ import Contact from "./pages/contact";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/saroshkhandev">
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/contact" exact component={Contact} />
