@@ -31,7 +31,7 @@ const HeroSection = () => {
           <b>Your Tech Partner!</b>
         </HeroP>
         <HeroP>
-          We are a Small Tech firm that works efficiently and solves your daily
+          A Small Tech firm that works efficiently and solves your daily
           Tech needs. Swipe down to Explore more.
         </HeroP>
         <HeroBtnWrapper>
