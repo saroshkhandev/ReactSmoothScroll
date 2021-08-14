@@ -9,8 +9,8 @@ import {
   HeroBtnWrapper,
   ArrowForward,
   ArrowRight,
+  ButtonS,
 } from "./HeroElements";
-import { Button } from "../UI/ButtonElement";
 import Video from "../../videos/video1.mp4";
 
 const HeroSection = () => {
@@ -35,15 +35,20 @@ const HeroSection = () => {
           Tech needs. Swipe down to Explore more.
         </HeroP>
         <HeroBtnWrapper>
-          <Button
-            to="/contact"
+          <ButtonS
+            to="services"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primary="true"
             dark="true"
+            smooth={true}
+            duration={800}
+            spy={true}
+            exact="true"
+            offset={-80}
           >
             Get Started {hover ? <ArrowForward /> : <ArrowRight />}
-          </Button>
+          </ButtonS>
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>

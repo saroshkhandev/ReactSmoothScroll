@@ -77,7 +77,7 @@ const Navbar = (props) => {
                   duration={800}
                   spy={true}
                   exact="true"
-                  offset={-80}
+                  offset={-20}
                 >
                   Portfolio
                 </NavLinks>
