@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/thedopeguys/static/css/main.61d0a6bd.chunk.css",
-    "main.js": "/thedopeguys/static/js/main.d2c690c1.chunk.js",
-    "main.js.map": "/thedopeguys/static/js/main.d2c690c1.chunk.js.map",
+    "main.js": "/thedopeguys/static/js/main.f4195d03.chunk.js",
+    "main.js.map": "/thedopeguys/static/js/main.f4195d03.chunk.js.map",
     "runtime-main.js": "/thedopeguys/static/js/runtime-main.c1a0b021.js",
     "runtime-main.js.map": "/thedopeguys/static/js/runtime-main.c1a0b021.js.map",
     "static/js/2.44ca9cdd.chunk.js": "/thedopeguys/static/js/2.44ca9cdd.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.c1a0b021.js",
     "static/js/2.44ca9cdd.chunk.js",
     "static/css/main.61d0a6bd.chunk.css",
-    "static/js/main.d2c690c1.chunk.js"
+    "static/js/main.f4195d03.chunk.js"
   ]
 }
