@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/thedopeguys/static/css/main.61d0a6bd.chunk.css",
+    "main.js": "/thedopeguys/static/js/main.d2834bb0.chunk.js",
+    "main.js.map": "/thedopeguys/static/js/main.d2834bb0.chunk.js.map",
+    "runtime-main.js": "/thedopeguys/static/js/runtime-main.c1a0b021.js",
+    "runtime-main.js.map": "/thedopeguys/static/js/runtime-main.c1a0b021.js.map",
+    "static/js/2.7ba3189e.chunk.js": "/thedopeguys/static/js/2.7ba3189e.chunk.js",
+    "static/js/2.7ba3189e.chunk.js.map": "/thedopeguys/static/js/2.7ba3189e.chunk.js.map",
+    "index.html": "/thedopeguys/index.html",
+    "static/css/main.61d0a6bd.chunk.css.map": "/thedopeguys/static/css/main.61d0a6bd.chunk.css.map",
+    "static/js/2.7ba3189e.chunk.js.LICENSE.txt": "/thedopeguys/static/js/2.7ba3189e.chunk.js.LICENSE.txt",
+    "static/media/svg-1.svg": "/thedopeguys/static/media/svg-1.f2f53b6c.svg",
+    "static/media/svg-2.svg": "/thedopeguys/static/media/svg-2.21ddf890.svg",
+    "static/media/svg-6.svg": "/thedopeguys/static/media/svg-6.4bc99a89.svg",
+    "static/media/svg-E.96fd3d18.svg": "/thedopeguys/static/media/svg-E.96fd3d18.svg",
+    "static/media/svg-G.27b2bf9b.svg": "/thedopeguys/static/media/svg-G.27b2bf9b.svg",
+    "static/media/svg-I.031d2791.svg": "/thedopeguys/static/media/svg-I.031d2791.svg",
+    "static/media/video1.93e5dd0d.mp4": "/thedopeguys/static/media/video1.93e5dd0d.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c1a0b021.js",
+    "static/js/2.7ba3189e.chunk.js",
+    "static/css/main.61d0a6bd.chunk.css",
+    "static/js/main.d2834bb0.chunk.js"
+  ]
+}
