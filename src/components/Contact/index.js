@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import useInput from "../../hooks/use-input";
 import {
   Container,
@@ -18,6 +18,7 @@ const isNotEmpty = (value) => value.trim() !== "";
 const isEmail = (value) => value.includes("@");
 
 const ContactUS = () => {
+  const [submitted, setSubmitted] = useState(false);
   const {
     value: enteredFullName,
     isValid: enteredFullNameIsValid,
@@ -67,6 +68,7 @@ const ContactUS = () => {
       Email: enteredEmail,
     };
     submitMessageHandler(contact);
+    setSubmitted(true);
     resetFullNameInput();
     resetMessageInput();
     resetEnteredEmailInput();
@@ -97,6 +99,7 @@ const ContactUS = () => {
               required
               onChange={enteredEmailChangeHandler}
               onBlur={enteredEmailBlurHandler}
+              value={enteredEmail}
             />
             <FormLabel htmlFor="name">Full Name</FormLabel>
             <FormInput
@@ -104,6 +107,7 @@ const ContactUS = () => {
               required
               onChange={fullNameChangeHandler}
               onBlur={fullNameBlurHandler}
+              value={enteredFullName}
             />
             <FormLabel htmlFor="message">Message</FormLabel>
             <FormTextArea
@@ -111,6 +115,7 @@ const ContactUS = () => {
               required
               onChange={messageChangeHandler}
               onBlur={messageBlurHandler}
+              value={enteredMessage}
             />
             <FormButton type="submit" disabled={!formIsValid}>
               Send
@@ -119,6 +124,7 @@ const ContactUS = () => {
               emailHasError &&
               messageHasError &&
               errorMessage}
+            {submitted && <Text>Successfully sent!</Text>}
           </Form>
         </FormContent>
       </FormWrap>
