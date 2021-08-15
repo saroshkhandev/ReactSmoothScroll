@@ -1,6 +1,6 @@
 # Check it out on
 - https://thedopeguys.herokuapp.com/
--- 
+--- 
 
 # Getting Started with Create React App
 
